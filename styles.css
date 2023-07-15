@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+/* font-family: 'Inconsolata', monospace; */
+/* font-family: 'Space Mono', monospace; */
+body {
+    max-width: 1440px;
+    max-height: 1080px;
+    margin: auto;
+  }
+  header h2{
+    color: #333;
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    padding: 20px;
+  }
+
+  section {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+  }
+  img{
+    max-width: 100%;
+  }
+  .text-box h1{
+    color: #333;
+    font-family: 'Space Mono';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+  }
+  .text-box p{
+    color: #4F4F4F;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    margin-bottom: 66px;
+    margin-right: 210px;
+
+  }
+  button{
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    background: #333;
+    padding: 23px 43px;
+  }
+  footer p{
+    color: #BDBDBD;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  footer p span{
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+
+
+  @media screen and (max-width: 576px) {
+    section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+      }
+      img{
+        max-width: 80%;
+      }
+      .img-box{
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+      }
+      .text-box{
+        margin-left: 30px
+      }
+      .text-box h1{
+        font-size: 48px;
+      }
+      .text-box p{
+        margin-right: 50px;
+        font-size: 18px;
+      }
+  }
+
+
+
